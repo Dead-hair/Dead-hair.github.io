@@ -1,0 +1,20 @@
+{
+  "nav.home": "Начало",
+  "nav.education": "Образование",
+  "nav.projects": "Проекты",
+  "nav.contacts": "Контакты",
+
+  "intro.title": "Добро пожаловать в моё портфолио",
+  "intro.text": "Я — Dead-hair, Python-разработчик и разработчик баз данных.",
+  "intro.scroll": "Прокрутите вниз ↓",
+
+  "education.title": "Образование",
+  "education.text": "Учусь в колледже по направлению программирования. В будущем здесь появится изображение диплома.",
+
+  "projects.title": "Проекты",
+  "projects.github": "Проект с GitHub",
+  "projects.figma": "Проект из Figma",
+
+  "contacts.title": "Контакты",
+  "contacts.text": "Здесь появятся ссылки на Telegram, ВК, почту и GitHub."
+}

@@ -1,0 +1,20 @@
+{
+  "nav.home": "Home",
+  "nav.education": "Education",
+  "nav.projects": "Projects",
+  "nav.contacts": "Contacts",
+
+  "intro.title": "Welcome to my portfolio",
+  "intro.text": "I'm Dead-hair, a Python developer and database engineer.",
+  "intro.scroll": "Scroll down ↓",
+
+  "education.title": "Education",
+  "education.text": "I am studying programming in college. A diploma image will be added later.",
+
+  "projects.title": "Projects",
+  "projects.github": "GitHub Project",
+  "projects.figma": "Figma Project",
+
+  "contacts.title": "Contacts",
+  "contacts.text": "Links to Telegram, VK, email, and GitHub will appear here."
+}
