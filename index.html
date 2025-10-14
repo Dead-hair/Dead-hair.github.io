@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dead-hair — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- i18next -->
+  <script src="https://unpkg.com/i18next@21.9.1/dist/umd/i18next.min.js"></script>
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-mark">✦</div>
+        <div class="brand-name">Dead-hair</div>
+      </div>
+
+      <nav class="nav">
+        <a href="#hero" data-i18n="nav.home">Начало</a>
+        <a href="#education" data-i18n="nav.education">Образование</a>
+        <a href="#certs" data-i18n="nav.certs">Сертификаты</a>
+        <a href="#projects" data-i18n="nav.projects">Проекты</a>
+        <a href="#contacts" data-i18n="nav.contacts">Контакты</a>
+      </nav>
+
+      <div class="controls">
+        <select id="langSelect" aria-label="Select language">
+          <option value="ru">Рус</option>
+          <option value="en">EN</option>
+          <option value="kz">KZ</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <div class="eyebrow" data-i18n="hero.welcome">Добро пожаловать в моё портфолио</div>
+        <h1 class="hero-title" data-i18n="hero.name">Dead-hair</h1>
+        <p class="hero-sub" data-i18n="hero.role">Python-разработчик, разработчик баз данных</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects" data-i18n="hero.viewProjects">Мои работы</a>
+          <a class="btn ghost" href="#contacts" data-i18n="hero.contactMe">Связаться</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/myphoto.jpg" alt="Фото Dead-hair" class="hero-photo">
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section section-education">
+    <div class="container">
+      <h2 class="section-title" data-i18n="nav.education">Образование</h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <h3 data-i18n="education.title">Колледж — направление: Программирование</h3>
+          <p data-i18n="education.text">В данный момент я учусь в колледже по направлению программирования. Здесь позже появится изображение диплома.</p>
+        </div>
+
+        <div class="diploma-placeholder">
+          <div class="diploma-box">
+            <div class="diploma-label" data-i18n="education.diplomaPlaceholder">Здесь будет диплом (пока нет)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certs" class="section section-certs">
+  <div class="container">
+    <h2 class="section-title" data-i18n="certs.title">Сертификаты</h2>
+    <div class="certs-grid">
+    <div class="cert">
+    <div class="cert-title">Создание сайтов с 0</div>
+    <a href="https://skills.enbek.kz/users/user_774194/course_440_certificate_ru.pdf" target="_blank">
+      <img src="images/cert_440.jpg" alt="Сертификат Course 440" class="cert-img">
+    </a>
+    </div>
+    <div class="cert">
+    <div class="cert-title">Андроид разработчик</div>
+    <a href="https://skills.enbek.kz/users/user_774194/course_444_certificate_ru.pdf" target="_blank">
+      <img src="images/cert_444.jpg" alt="Сертификат Course 444" class="cert-img">
+    </a>
+    </div>
+    <div class="cert">
+    <div class="cert-title">Джава старт</div>
+    <a href="https://skills.enbek.kz/users/user_774194/course_520_certificate_ru.pdf" target="_blank">
+      <img src="images/cert_520.jpg" alt="Сертификат Course 520" class="cert-img">
+    </a>
+    </div>
+    <div class="cert">
+    <div class="cert-title">Копирайтинг</div>
+    <a href="https://skills.enbek.kz/users/user_774194/course_54_certificate_ru.pdf" target="_blank">
+      <img src="images/cert_54.jpg" alt="Сертификат Course 54" class="cert-img">
+    </a>
+  </div>
+ </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects -->
+  <section id="projects" class="section section-projects">
+    <div class="container">
+      <h2 class="section-title" data-i18n="projects.title">Проекты</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-thumb">GH</div>
+          <h3>GitHub — Project #1</h3>
+          <p data-i18n="projects.sample">Здесь будет описание проекта с GitHub. Замените на свои репозитории.</p>
+          <a class="link" href="https://github.com/Dead-hair" target="_blank">GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">FG</div>
+          <h3>Figma — Work #1</h3>
+          <p data-i18n="projects.sample">Работа из Figma. Вставь ссылку на прототип.</p>
+          <a class="link" href="https://www.figma.com" target="_blank">Figma</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacts -->
+  <section id="contacts" class="section section-contacts">
+    <div class="container">
+      <h2 class="section-title" data-i18n="contacts.title">Контакты</h2>
+      <div class="contacts-grid">
+        <div class="contact-card">
+          <div class="contact-item"><strong data-i18n="contacts.telegramLabel">Telegram:</strong> <a href="https://web.telegram.org/k/#-2913250801" target="_blank">Telegram</a></div>
+          <div class="contact-item"><strong>VK:</strong> <a href="https://vk.com/your_happy_clown" target="_blank">VK</a></div>
+          <div class="contact-item"><strong data-i18n="contacts.emailLabel">Email:</strong> <a href="mailto:nugmanova.ami23@gmail.com">nugmanova.ami23@gmail.com</a></div>
+          <div class="contact-item"><strong>GitHub:</strong> <a href="https://github.com/Dead-hair" target="_blank">github.com/Dead-hair</a></div>
+        </div>
+        <div class="contact-card">
+          <p data-i18n="contacts.footerText">Спасибо за просмотр! Можешь связаться со мной любым удобным способом.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="yr"></span> Dead-hair</div>
+      <div>Made with ♥</div>
+    </div>
+  </footer>
+
+  <script>
+    // current year
+    document.getElementById('yr').textContent = new Date().getFullYear();
+  </script>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Home",
+    "education": "Education",
+    "certs": "Certificates",
+    "projects": "Projects",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "welcome": "Welcome to my portfolio",
+    "name": "Dead-hair",
+    "role": "Python developer, database developer",
+    "viewProjects": "View projects",
+    "contactMe": "Get in touch"
+  },
+  "scroll": {
+    "down": "Scroll down"
+  },
+  "education": {
+    "title": "College — major: Programming",
+    "text": "I am currently studying at college in the programming major. A diploma image will be added here later.",
+    "diplomaPlaceholder": "Diploma will appear here (not available yet)"
+  },
+  "certs": {
+    "title": "Certificates",
+    "open": "Open PDF"
+  },
+  "projects": {
+    "title": "Projects",
+    "sample": "Short project description goes here. Replace with your GitHub repos and Figma links."
+  },
+  "contacts": {
+    "title": "Contacts",
+    "telegramLabel": "Telegram:",
+    "emailLabel": "Email:",
+    "footerText": "Thanks for visiting! You can contact me by any convenient method."
+  }
+}
