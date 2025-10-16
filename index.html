@@ -117,26 +117,53 @@
 
 
   <!-- Projects -->
-  <section id="projects" class="section section-projects">
+  <section id="projects" class="section projects">
     <div class="container">
-      <h2 class="section-title" data-i18n="projects.title">Проекты</h2>
+      <h2 data-i18n="projects.title">Мои проекты</h2>
       <div class="projects-grid">
-        <article class="project-card">
-          <div class="project-thumb">GH</div>
-          <h3>GitHub — Project #1</h3>
-          <p data-i18n="projects.sample">Здесь будет описание проекта с GitHub. Замените на свои репозитории.</p>
-          <a class="link" href="https://github.com/Dead-hair" target="_blank">GitHub</a>
-        </article>
-
-        <article class="project-card">
-          <div class="project-thumb">FG</div>
-          <h3>Figma — Work #1</h3>
-          <p data-i18n="projects.sample">Работа из Figma. Вставь ссылку на прототип.</p>
-          <a class="link" href="https://www.figma.com" target="_blank">Figma</a>
-        </article>
+  
+        <!-- Проект 1 -->
+        <div class="project-card">
+          <img src="images/project-gh1.jpg" alt="Скрин проекта 1" class="project-img">
+          <div class="project-content">
+            <h3>Реализована Q&A-система на базе ChromaDB и Gemini API.</h3>
+            <p>Контент из авторской книги индексируется в векторной базе, по запросу извлекаются релевантные фрагменты и передаются нейросети для генерации точного ответа.</p>
+            <a href="https://github.com/Dead-hair/college-work-25-26/tree/main/chrome%20db%20librari%20ii" target="_blank" class="project-btn">
+              Смотреть проект
+            </a>
+          </div>
+        </div>
+  
+        <!-- Проект 2 -->
+        <div class="project-card">
+          <img src="images/project-gh2.jpg" alt="Скрин проекта 2" class="project-img">
+          <div class="project-content">
+            <h3>KinoRanker</h3>
+            <p>Скрипт автоматически собирает информацию о фильмах с сайта КиноПоиск и формирует рейтинг по ключевым параметрам:
+                Название, Режиссёр, Страна, Дата выхода.
+                Система парсит данные, структурирует их в таблицу и позволяет анализировать фильмы по заданным критериям.</p>
+            <a href="https://github.com/Dead-hair/search-info-in-kino.poisk/tree/main" target="_blank" class="project-btn">
+              Смотреть проект
+            </a>
+          </div>
+        </div>
+  
+        <!-- Проект 3 -->
+        <div class="project-card">
+          <img src="images/project-gh3.jpg" alt="Скрин проекта 3" class="project-img">
+          <div class="project-content">
+            <h3>Реализована система управления онлайн-библиотекой с использованием SQLite</h3>
+            <p>Демонстрация работы с локальной базой данных, реляционными связями и основами аналитики по пользовательским отзывам и жанровой принадлежности. Подходит для мини-библиотеки, учебных проектов или начала разработки рекомендательной системы.</p>
+            <a href="https://github.com/Dead-hair/college-work-25-26/blob/main/online%20library%20db/create_db.js" target="_blank" class="project-btn">
+              Смотреть проект
+            </a>
+          </div>
+        </div>
+  
       </div>
     </div>
   </section>
+  
 
   <!-- Contacts -->
   <section id="contacts" class="section section-contacts">
