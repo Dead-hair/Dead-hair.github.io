@@ -9,30 +9,72 @@
   "hero": {
     "welcome": "Welcome to my portfolio",
     "name": "Dead-hair",
-    "role": "Python developer, database developer",
-    "viewProjects": "View projects",
-    "contactMe": "Get in touch"
-  },
-  "scroll": {
-    "down": "Scroll down"
+    "role": "Python Developer, Database Developer",
+    "viewProjects": "My Works",
+    "contactMe": "Contact Me"
   },
   "education": {
-    "title": "College — major: Programming",
-    "text": "I am currently studying at college in the programming major. A diploma image will be added here later.",
-    "diplomaPlaceholder": "Diploma will appear here (not available yet)"
+    "title": "I study at the Republican Higher Technical College (RHTC) in Uralsk, majoring in Software Engineering.",
+    "text": "This is a modern college that focuses on practical skills and real-world development. The curriculum combines programming languages, cybersecurity basics, and application design. Here I gain the fundamental knowledge necessary for a career in IT and professional growth.",
+    "diplomaPlaceholder": "Diploma will be added soon"
   },
   "certs": {
-    "title": "Certificates",
-    "open": "Open PDF"
+    "title": "My Certificates",
+    "card1": {
+      "title": "Website Development from Scratch",
+      "desc": "Course on the basics of web development — HTML, CSS, responsiveness.",
+      "btn": "View Certificate"
+    },
+    "card2": {
+      "title": "Android Developer",
+      "desc": "Learning the basics of Kotlin and building mobile applications.",
+      "btn": "View Certificate"
+    },
+    "card3": {
+      "title": "Java Start",
+      "desc": "Basic Java course, object-oriented programming.",
+      "btn": "View Certificate"
+    },
+    "card4": {
+      "title": "Copywriting",
+      "desc": "Course on creating texts that attract attention and sell.",
+      "btn": "View Certificate"
+    }
   },
   "projects": {
-    "title": "Projects",
-    "sample": "Short project description goes here. Replace with your GitHub repos and Figma links."
+    "title": "My Projects",
+    "card1": {
+      "title": "Implemented a Q&A system based on ChromaDB and Gemini API.",
+      "desc": "Content from an author's book is indexed in a vector database, and relevant fragments are retrieved upon request and passed to an AI model to generate accurate answers.",
+      "btn": "View Project"
+    },
+    "card2": {
+      "title": "KinoRanker",
+      "desc": "A script that automatically collects movie data from KinoPoisk and generates a ranking by key parameters.",
+      "btn": "View Project"
+    },
+    "card3": {
+      "title": "Online Library Management System using SQLite",
+      "desc": "Demonstrates work with databases, relations, and analytics by genre and reviews.",
+      "btn": "View Project"
+    }
   },
   "contacts": {
-    "title": "Contacts",
-    "telegramLabel": "Telegram:",
-    "emailLabel": "Email:",
-    "footerText": "Thanks for visiting! You can contact me by any convenient method."
+    "title": "Contact Me",
+    "intro": "If you have questions, suggestions, or want to discuss collaboration — write to me 👇",
+    "social": {
+      "title": "Social Networks",
+      "text": "I'm active on social media — feel free to reach out directly."
+    },
+    "form": {
+      "title": "Send a Message",
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message...",
+      "btn": "Send"
+    }
+  },
+  "footer": {
+    "made": "Made with ♥"
   }
 }
